@@ -27,32 +27,35 @@
 
 <body class="container-fluid px-0">
   <div class="blackOverlay2"></div>
-  <header class="row no-gutters pt3 justify-content-between">
-    <div class="headerIcon col-5 col-sm-2"></div>
-    <nav class="col-7 col-sm-8 navBar align-self-center">
+
+  <header class="row no-gutters pt3">
+    <div class="headerIcon col-2"></div>
+    <nav class="col-9 navBar align-self-center">
       <ul class="flexCenter">
-        <li class="navBarItem"><a href="./../index.html" class="hyperlink mada">Home</a></li>
+        <li class="navBarItem">
+          <a href="./../index.html" class="hyperlink mada">
+            Home
+          </a>
+        </li>
         <li class="navBarItem"><a href="./about-us.html" class="hyperlink mada currentView">Menu</a></li>
         <li class="navBarItem"><a href="./clients.html" class="hyperlink mada">Gallery</a></li>
         <li class="navBarItem"><a href="./contact.html" class="hyperlink mada">Contact</a></li>
       </ul>
     </nav>
+    <div class="col-1"></div>
     <div class="col-2 dropdown align-self-center">
       <button class="dropbtnclick dropbtn btn btn-secondary fas fa-grip-lines py-2"></button>
       <div class="dropdown-content">
         <li><a class="dropdownItem" href="./index.html">Home</a></li>
-        <li><a class="dropdownItem" href="./pages/about-us.html">Menu</a></li>
-        <li><a class="dropdownItem" href="./pages/clients.html">Gallery</a></li>
-        <li><a class="dropdownItem" href="./pages/contact.html">Contact</a></li>
+        <li><a class="dropdownItem" href="./about-us.html">Menu</a></li>
+        <li><a class="dropdownItem" href="./clients.html">Gallery</a></li>
+        <li><a class="dropdownItem" href="./contact.html">Contact</a></li>
       </div>
     </div>
   </header>
 
-  <div class="sideLogoContainer align-self-end text-center">
+  <!-- <div class="sideLogoContainer align-self-end text-center">
     <div class="verticalLine"></div>
-    <a class="sideLogo" target="_blank" href="https://www.linkedin.com/company/exbon-development-inc-/about/">
-      <i class="fab fa-linkedin"></i>
-    </a>
     <a class="sideLogo" href="mailto:#0">
       <i class="fas fa-envelope"></i>
     </a>
@@ -63,23 +66,13 @@
     <a class="phoneNumber sideLogo" href="">
       <i class="fas fa-phone"></i>
     </a>
-  </div>
+  </div> -->
 
   <section class="aboutPage banner row no-gutters grayBackgroundGradient2">
     <div class="bannerPicture aboutBanner">
     </div>
-    <div class="bannerText" id="aboutText">
+    <div class="bannerText sushiFont" id="menuText">
       Menu
-    </div>
-  </section>
-
-  <section class="row no-gutters paddingTop6 justify-content-center grayBackgroundGradient paddingBottom6">
-    <div class="col-sm-8 col-10 titleFont">
-      About Us
-    </div>
-    <div class="col-sm-8 col-10 mediumFont lightGray">
-      We're dedicated to giving you the best service possible
-      by keeping our solutions reliable, long-standing, and effective.
     </div>
   </section>
 
@@ -93,21 +86,11 @@
             <div class="blueLine"></div>
             <br>
             <div class="bodyTextTitle darkGray largeFont">
-              Introduction
+              Appetizer & Salad
             </div>
             <br>
             <div class="bodyText lightGray smallFont">
-              Whether it is a local, state, federal, or national assignment,
-              EXBON applies insight, experience, intelligence, and resources
-              making clients satisfied with their decision.
-              We believe the primary business purpose is about the relationship.
-              Where qualities like confidence, trust, ethics, and investments define
-              the line between success and failure.
-              Our clients hire EXBON because of prolonged trust. They seek our
-              world class experience, qualifications, expertise, and resources in making
-              decisions serving their best interests.
-              Every step of the way, we stake EXBON’s reputation on fulfilling our duty.
-              We build towards perfection.
+
             </div>
           </div>
         </div>
@@ -121,7 +104,7 @@
             <div class="redLine"></div>
             <br>
             <div class="bodyTextTitle darkGray largeFont">
-              Company Vision
+              Combo Specials
             </div>
             <br>
             <div class="bodyText lightGray smallFont">
@@ -158,36 +141,20 @@
   </section>
 
   <footer>
-    <div class="row no-gutters footer justify-content-center darkGrayBackground whiteText pt5 pb5">
+    <div class="row no-gutters footer justify-content-center darkGrayBackground whiteText py-5">
       <div class="col-2">
         <div class="footerTitle mediumFont">Navigation</div>
         <div class="footerText">
-          <a href="./../index.html" class="lightBlue flex">
-            <i class="fas fa-chevron-right chevron"></i>
+          <a href="./index.html" class="lightBlue flex">
             &#160; Home
           </a>
-          <a href="./about-us.html" class="lightBlue flex">
-            <i class="fas fa-chevron-right chevron"></i>
-            &#160; About
+          <a href="./pages/about-us.html" class="lightBlue flex">
+            &#160; Menu
           </a>
-          <a href="./services.html" class="lightBlue flex">
-            <i class="fas fa-chevron-right chevron"></i>
-            &#160; Services
+          <a href="./pages/clients.html" class="lightBlue flex">
+            &#160; Gallery
           </a>
-          <a href="./clients.html" class="lightBlue flex">
-            <i class="fas fa-chevron-right chevron"></i>
-            &#160; Clients
-          </a>
-          <a href="./subcontractors.html" class="lightBlue flex">
-            <i class="fas fa-chevron-right chevron"></i>
-            &#160; Subcontractors
-          </a>
-          <a href="./careers.html" class="lightBlue flex">
-            <i class="fas fa-chevron-right chevron"></i>
-            &#160; Careers
-          </a>
-          <a href="./contact.html" class="lightBlue flex">
-            <i class="fas fa-chevron-right chevron"></i>
+          <a href="./pages/contact.html" class="lightBlue flex">
             &#160; Contact
           </a>
         </div>
@@ -198,16 +165,16 @@
           <i class="fas fa-home"></i>
           <a target="_blank" class="hyperlink lightBlue"
             href="https://www.google.com/maps/place/Exbon+Development+Inc/@33.7616582,-117.9322642,17.25z/data=!4m5!3m4!1s0x80dd27f6c07486f9:0x8a5ab4bb1b208609!8m2!3d33.7618375!4d-117.9291503">
-            &#160; 13831 Newhope St Garden Grove, CA 92843
+            &#160; 5916 Del Amo Blvd, Lakewood, CA 90713
           </a>
           <br>
           <i class="fas fa-phone"></i>
-          <span class="phoneNumber hyperlink lightBlue pointer">
-            &#160; &#40;714&#41; 539 - 2222
+          <span class="phoneNumber hyperlink lightBlue cursorPointer">
+            &#160; &#40;562&#41; 429 - 1100
           </span>
           </br>
           <i class="fas fa-envelope"></i>
-          <a class="hyperlink lightBlue" href="mailto:#0">&#160; wconst@exbon.com</a>
+          <a class="hyperlink lightBlue" href="mailto:#0">&#160; welcome@calsushiteriyaki.com</a>
         </div>
       </div>
       <div class="col-1">
@@ -216,12 +183,12 @@
       </div>
       <div class="col-2 ml-5 footerIcon align-self-center"></div>
     </div>
-    <div class="row no-gutters darkGrayBackground text-center copyright">
+    <div class="row no-gutters darkGrayBackground text-center">
       <div class="tinyFont lightGrayText col">
         Copyright &copy;
         <script>
           document.write(new Date().getFullYear());
-        </script> All rights reserved | Exbon Development Inc.
+        </script> All rights reserved | California Sushi & Terikyai
       </div>
     </div>
   </footer>

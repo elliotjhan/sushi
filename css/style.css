@@ -127,6 +127,11 @@ header {
   border-bottom: 2px solid #1d6faa;
 }
 
+.greenLine {
+  width: 75px;
+  border-bottom: 2px solid #108820;
+}
+
 .redLine {
   width: 75px;
   border-bottom: 2px solid #b62424;
@@ -234,6 +239,10 @@ header {
 
 .paddingTop6 {
   padding-top: 6%;
+}
+
+.paddingTop10 {
+  padding-top: 10%;
 }
 
 .paddingBottom6 {
@@ -465,7 +474,7 @@ input.gsc-input {
 }
 
 .aboutBanner {
-  background-image: url(../images/aboutusbanner2.jpg);
+  background-image: url(../images/background1.jpg);
 }
 
 .servicesBanner {
@@ -529,35 +538,42 @@ input.gsc-input {
   justify-content: flex-end;
   align-items: center;
   position: absolute;
+}
+
+.sushiFont {
   font-family: 'Carter One', cursive;
 }
 
+#menuText {
+  background-color: #005177c5;
+}
+
 #servicesText {
-  background-color: rgba(42, 107, 151, 0.801);
+  background-color: #2a6b97cc;
 }
 
 #homeText {
-  background-color: rgba(168, 109, 31, 0.877);
+  background-color: #a86d1fe0;
 }
 
 #clientText {
-  background-color: rgba(34, 84, 126, 0.932);
+  background-color: #22547eee;
 }
 
 #subcontractorText {
-  background-color: rgba(126, 80, 12, 0.877);
+  background-color: #7e500ce0;
 }
 
 #careersText {
-  background-color: rgba(39, 98, 138, 0.801);
+  background-color: #27628acc;
 }
 
 #contactText {
-  background-color: rgba(99, 99, 99, 0.938);
+  background-color: #636363ef;
 }
 
 #prequalText {
-  background-color: rgba(0, 81, 119, 0.774);
+  background-color: #005177c5;
 }
 
 .projectDescription {
@@ -590,9 +606,18 @@ input.gsc-input {
   -moz-box-shadow: -2px 1px 30px 2px rgba(46, 50, 50, 0.54);
   box-shadow: -2px 1px 30px 2px rgba(46, 50, 50, 0.54);
 } */
-.recentProject1 {
-  background-image: url(../images/civilengineering.jfif);
+.menuPicture {
+  background-image: url(../images/RollingRice_Menu_Aug20-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50vh;
 }
+
+/* 
+.menuPicture:hover {
+  transform: scale(1.1);
+} */
 
 .recentProject2 {
   background-image: url(../images/commercial-office-renovation.jpg);
