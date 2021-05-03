@@ -500,6 +500,12 @@ input.gsc-input {
 .prequalBanner {
   background-image: url(../images/banner3.jpg);
 }
+.chickenPicture {
+  background-image: url(../images/chicken.jpg);
+}
+.rollBanner {
+  background-image: url(../images/spicytunacrunchroll1.jpg);
+}
 
 .homeBannerText {
   color: white;
@@ -588,7 +594,7 @@ input.gsc-input {
 }
 
 .recentProjectText {
-  height: 288px;
+  height: 100px;  
 }
 
 .recentProject {
@@ -611,9 +617,18 @@ input.gsc-input {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 50vh;
+  height: 80vh;
 }
-
+.caterPicture {
+  background-image: url(../images/catering.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80vh;
+}
+.galleryItem {
+  
+}
 /* 
 .menuPicture:hover {
   transform: scale(1.1);
@@ -822,7 +837,9 @@ button.gsc-search-button-v2 {
 /*client logos*/
 
 .clientLogo {
-  height: 15vh;
+  height: 30vh;
+  width: 15vw;
+  object-fit: cover;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   -ms-transform: translateZ(0);
