@@ -575,7 +575,7 @@ input.gsc-input {
 }
 
 #contactText {
-  background-color: #636363ef;
+  background-color: #636363cb;
 }
 
 #prequalText {
@@ -872,8 +872,8 @@ button.gsc-search-button-v2 {
 }
 
 .footerIcon {
-  height: 13vh;
-  background-image: url(../images/logosolo.png);
+  height: 20vh;
+  background-image: url(../images/logo5.png);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
